@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.principal{
+    margin-top: 250px ;
+}
+
+.titulo{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btnAcessar{
+    background-color: grey;
+}
+
+.btnAcessar:hover{
+    background-color: #404040
+}
