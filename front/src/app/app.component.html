@@ -1,5 +1,5 @@
 <nav *ngIf="validarUrl()" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand border-right rounded-right pr-3" href="#">Unclean System</a>
+  <a class="navbar-brand border-right rounded-right pr-3" [routerLink]="['/home']" href="#" href="#">Unclean System</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -7,10 +7,10 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Financeiro <span class="sr-only"></span></a>
+        <a class="nav-link" [routerLink]="['/financeiro']" href="#">Financeiro <span class="sr-only"></span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Agenda</a>
+        <a class="nav-link" [routerLink]="['/agenda']" href="#" href="#">Agenda</a>
       </li>
     </ul>
   </div>
